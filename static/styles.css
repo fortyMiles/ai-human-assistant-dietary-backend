@@ -1,0 +1,43 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern and clean font */
+    margin: 20px;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333; /* Soften the default text color for modern aesthetics */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Keeps the modern look with cleaner lines */
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    background-color: #ffffff; /* Bright clean background */
+    margin-bottom: 20px; /* Space between tables if multiple */
+}
+
+th, td {
+    padding: 12px 15px; /* More padding for a better visual hierarchy */
+    border-bottom: 1px solid #dddddd; /* Lighter borders for less visual weight */
+    text-align: left; /* Alignment to the left, can be adjusted if needed */
+}
+
+th {
+    background-color: #007BFF; /* A fresh blue for headers */
+    color: #ffffff; /* White text for contrast */
+    font-size: 16px; /* Slightly larger text for headers */
+}
+
+td {
+    font-size: 14px; /* Optimal font size for readability */
+}
+
+/* Hover effect for rows - optional */
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Responsive typography */
+@media (max-width: 600px) {
+    th, td {
+        padding: 10px; /* Adjust padding on smaller screens */
+    }
+}
